@@ -7,7 +7,7 @@
         <label>Nome</label>
         <input type="text" class="form-control" #nomeInput>
     </div>
-    <button type="button" class="btn btn-primary" (click)="adicionar(nomeInput.value)">Adicionar</button>
+    <button type="button" class="btn btn-primary" (click)="adicionar(nomeInput.value)" bind-disabled="nome.length == 0">Adicionar</button>
 </div>
 
 
