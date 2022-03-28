@@ -2,8 +2,9 @@
 <p align="center"> Repositório para armazenamento dos conteudos dos cursos Algaworks </p>
 
 </br>
-
-<img  align="center" src="https://user-images.githubusercontent.com/6686227/160471819-955b3692-91e4-4592-b7b6-bc3d4612b84c.PNG" width='600px'/>
+<div  align="center">
+ <img  src="https://user-images.githubusercontent.com/6686227/160471819-955b3692-91e4-4592-b7b6-bc3d4612b84c.PNG" width='600px'/>
+</div
 
 ## Conteúdo Abordado
   * Criação de Módulos
