@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  funcionarios= [{id:0,nome:'Joãos'}] ;
+  funcionarios= [{id:0,nome:'João'}] ;
  
   aoAdicionar(funcionario: { id: number; nome: string; }){
     
