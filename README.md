@@ -12,6 +12,13 @@
   * Data Binding
   * Interpolação
   * Event Binding
+  * Two-Way Data Binding
+  * Diretivas ngIf/ngFor/hidden
+  * Binding Propiedades Customizadas @input
+  * Binding de eventos customizados com @Output e EventEmitter
+  * Adicionando estilos CSS em componentes
+  * Estilos CSS dinâmicos com ngStyle
+  *  Classes CSS dinâmicas com ngClass
 
 <h4 align="center"> Projeto README - Em construção...</h4>
 # Algaworks
