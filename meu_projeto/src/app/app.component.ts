@@ -8,13 +8,17 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'meu_projeto';
   nome = 'Kened';
+  adicionado = false;
 
   adicionar(){
     //this.nome = nome;
     // console.log(`Adicionado ${this.nome}`);
 
-    const numero = Math.round(Math.random() * 100);
-    this.nome = 'João ' + numero;
+    // const numero = Math.round(Math.random() * 100);
+    // this.nome = 'João ' + numero;
+
+    console.log(`Adicionando ${this.nome}`);
+    this.adicionado = true;
   }
 
   // alterarNome(event: any){
