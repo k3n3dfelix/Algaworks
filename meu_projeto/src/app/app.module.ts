@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
+import { FuncionarioCardComponent } from './funcionario-card/funcionario-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BemVindoComponent
+    BemVindoComponent,
+    FuncionarioCardComponent
   ],
   imports: [
     BrowserModule,
