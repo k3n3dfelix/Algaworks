@@ -17,9 +17,17 @@ export class FuncionarioCardComponent implements OnInit {
 
   getEstilosCartao() {
     return{
-      'border-width.px' : this.funcionario.id, 
-      'background-color' : this.funcionario.id % 2 === 0 ? 'gray' : 'red'
+      
+      'background-color' : this.funcionario.id % 2 === 0 ? '#8c8c8c' : '#e6e6e6'
     }
+  }
+
+  // getListaClassesCss(){
+  //   return ['badge', 'badge-primary'];
+  // }
+
+  isAdmin(){
+    return this.funcionario.nome.startsWith('T');
   }
   constructor() { 
     
