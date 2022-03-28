@@ -9,16 +9,16 @@ export class AppComponent {
   title = 'meu_projeto';
   nome = 'Kened';
 
-  adicionar(nome : string){
-    this.nome = nome;
+  adicionar(){
+    //this.nome = nome;
     // console.log(`Adicionado ${this.nome}`);
 
-    // const numero = Math.round(Math.random() * 100);
-    // this.nome = 'Seu nome parecera aqui ' + numero;
+    const numero = Math.round(Math.random() * 100);
+    this.nome = 'João ' + numero;
   }
 
-  alterarNome(event: any){
-    //console.log(event);
-    this.nome = event.target.value;
-  }
+  // alterarNome(event: any){
+  //   console.log(event);
+  //   this.nome = event.target.value;
+  // }
 }
