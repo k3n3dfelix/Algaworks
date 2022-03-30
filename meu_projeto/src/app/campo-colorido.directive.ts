@@ -1,9 +1,11 @@
-import { Directive, ElementRef, HostListener, Renderer2 } from '@angular/core';
+import { Directive, ElementRef, HostListener, Input, Renderer2 } from '@angular/core';
 
 @Directive({
   selector: '[appCampoColorido]'
 })
 export class CampoColoridoDirective {
+
+  @Input()cor = '#f2f2f2';
 
   constructor(
     private elementRef: ElementRef,
@@ -11,7 +13,7 @@ export class CampoColoridoDirective {
   ) { }
 
   @HostListener('focus') onFocus(){
-    this.renderer.setStyle(this.elementRef.nativeElement,'background-color', '#f2f2f2');
+    this.renderer.setStyle(this.elementRef.nativeElement,'background-color', this.cor);
   }
 
   @HostListener('blur') outFocus(){
